@@ -1,0 +1,27 @@
+"D:\Applications\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/Applications/JetBrains/CLion 2023.1.1/bin/ninja/win/x64/ninja.exe" -G Ninja -S D:\CLionProjects\ZJU_Ds_Lectures -B D:\CLionProjects\ZJU_Ds_Lectures\cmake-build-debug
+    -- src/Binary_search.cpp will be compiled to bin/Binary_search
+    -- src/DSBook_exe1.5.cpp will be compiled to bin/DSBook_exe1.5
+    -- src/PTA01-a-RightMethod.cpp will be compiled to bin/PTA01-a-RightMethod
+    -- src/PTA01-a.cpp will be compiled to bin/PTA01-a
+    -- src/PTA01-b_HELP.cpp will be compiled to bin/PTA01-b_HELP
+    -- src/PTA01-b___.cpp will be compiled to bin/PTA01-b___
+    -- src/CMakeCCompilerId.cpp will be compiled to bin/CMakeCCompilerId
+    -- src/lec.1.1-c.cpp will be compiled to bin/lec.1.1-c
+    -- src/lec1.1_a.cpp will be compiled to bin/lec1.1_a
+    -- src/lec1.1_b.cpp will be compiled to bin/lec1.1_b
+    -- src/lec1.3.cpp will be compiled to bin/lec1.3
+    -- src/lec2.1-a.cpp will be compiled to bin/lec2.1-a
+    -- src/lec2.1-b.cpp will be compiled to bin/lec2.1-b
+    -- src/lec2.2-a.cpp will be compiled to bin/lec2.2-a
+    -- src/lec2.2-b.cpp will be compiled to bin/lec2.2-b
+    -- src/lec2.3-a-recite.cpp will be compiled to bin/lec2.3-a-recite
+    -- src/lec2.3-a.cpp will be compiled to bin/lec2.3-a
+    -- src/lec2.3-b-recite.cpp will be compiled to bin/lec2.3-b-recite
+    -- src/lec2.3-b.cpp will be compiled to bin/lec2.3-b
+    -- src/lec2.4-b.cpp will be compiled to bin/lec2.4-b
+    -- src/lec2.4.cpp will be compiled to bin/lec2.4
+    -- src/main.cpp will be compiled to bin/main
+    -- src/union_test.cpp will be compiled to bin/union_test
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug

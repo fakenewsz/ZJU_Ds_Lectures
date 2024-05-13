@@ -1,0 +1,21 @@
+# ninja log v5
+0	65	7369192265746458	CMakeFiles/ZJU_Ds_Lectures.dir/lec1.1.c.obj	b6ec397807ea8e42
+2	63	7369202792524335	CMakeFiles/lec1.1.dir/lec1.1.c.obj	3e92f09076b7aa7d
+6	67	7369192265776446	CMakeFiles/ZJU_Ds_Lectures.dir/main.c.obj	dea00867b1d6b21e
+64	141	7369202793284334	lec1.1.exe	fd380c795a4caa7d
+1	94	7369314064251057	CMakeFiles/lec1.1_2.dir/lec1.1_2.c.obj	57ccae681bac5b1f
+94	203	7369314065335267	lec1.1_2.exe	15739a023d13aad4
+0	74	7369314126756518	CMakeFiles/lec.1.1-3.dir/lec.1.1-3.c.obj	9a79f1eaba85ece3
+74	164	7369314127646497	lec.1.1-3.exe	9ff1f3e180be3fc8
+65	146	7370379633571868	PTA01-a.exe	b52f846fbc48c017
+0	87	7370254835017132	CMakeFiles/lec.1.1-c.dir/lec.1.1-c.c.obj	42d176ec68f8aaf4
+87	230	7370254836434497	lec.1.1-c.exe	b6f6330e7ada5794
+1	65	7370379632777509	CMakeFiles/PTA01-a.dir/PTA01-a.c.obj	b965f8841380912e
+1	73	7370529759343800	CMakeFiles/PTA01-b.dir/PTA01-b.c.obj	2ab37fc8b3d33947
+73	158	7370529760182087	PTA01-b.exe	eed8b782d493f094
+0	69	7370540295158836	CMakeFiles/Binary_search.dir/Binary_search.c.obj	ebea81a05bab8f38
+69	158	7370540296044414	Binary_search.exe	fbc7ed33363bfe3
+1	65	7370551037589527	CMakeFiles/PTA01-b___.dir/PTA01-b___.c.obj	a146e562cc072835
+65	147	7370551038399508	PTA01-b___.exe	f85da49c2eae90f6
+0	98	7371001495009334	CMakeFiles/union_test.dir/union_test.c.obj	465189ab9f7dcbdd
+99	226	7371001496272350	union_test.exe	e26789eff48e045f

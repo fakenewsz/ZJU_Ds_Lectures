@@ -5,6 +5,7 @@
     -- src/PTA01-a.cpp will be compiled to bin/PTA01-a
     -- src/PTA01-b_HELP.cpp will be compiled to bin/PTA01-b_HELP
     -- src/PTA01-b___.cpp will be compiled to bin/PTA01-b___
+    -- src/PTA01_Func-3.cpp will be compiled to bin/PTA01_Func-3
     -- src/PTA02-2.cpp will be compiled to bin/PTA02-2
     -- src/PTA02-3.cpp will be compiled to bin/PTA02-3
     -- src/PTA02_Func-1.cpp will be compiled to bin/PTA02_Func-1

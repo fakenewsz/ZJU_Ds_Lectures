@@ -66,6 +66,7 @@ Polynominal Mult(Polynominal P1, Polynominal P2){
     if(!P1 || !P2){
         return NULL;
     }
+    //操作跳项要改变指针，为了不改变P1 ，P2 ，需要2个临时变量存储P1 ，P2的初始值
     t1=P1;
     t2 = P2;
     //初始化结果多项式
@@ -81,8 +82,8 @@ Polynominal Mult(Polynominal P1, Polynominal P2){
     t1=t1->link;//第一项用过后，接下来的处理跳过t1的第一项
 
     while(t1){
-        t2=P2;
-        Rear =P;
+        t2=P2;//刷新t2的值到初始值
+        Rear =P;//刷新Rear指针
         while(t2){
             //先计算要插入结果多项式的数字
             c= t1->coef * t2->coef;
@@ -93,13 +94,14 @@ Polynominal Mult(Polynominal P1, Polynominal P2){
 
             while(Rear->link != NULL && Rear->link->exp > e){//得加一个判断Rear指向的P不为空
                 //注意这里是判断e和Rear指的下一项的指数的大小关系
+                //rear游离在结果多项式体 外
                 Rear=Rear->link ; //逐个扫描Rear指向的链表多项式P
             }
             //退出循环后，Rear指向的那项的后一项，指数不大于e，可能==e可能<e
             //所以这里还要分2种情况判断
             if(Rear->link->exp == e && Rear->link !=NULL){
                 //如果指数相等，则系数相加
-                Rear->link->exp +=e;
+               // Rear->link->exp +=e;
                 if(Rear->link->coef+c !=0){  //系数!=0时，才保留
                     Rear->link->coef +=c;
                 }else{  //否则删除结点

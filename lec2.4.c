@@ -50,7 +50,7 @@ Polynominal PolyAdd(Polynominal P1,Polynominal P2){
     //Q:front 和rear有什么用？
     //A:front 标记结果链表的头结点，等下return出函数。
     // rear 一直表示结果多项式尾指针，动态变化
-    // 开头的时候front= rear，后，front不变，尾指针rear随着新结点的插入编号
+    // 开头的时候front= rear，后，front不变，尾指针rear随着新结点的插入不断更新
 
     while(P1 && P2){    //两个多项式都有非0 项待处理时
         switch(compare(P1->exp ,P2->exp)){ //P1链表的第i项 ，和P2链表的第i项,逐项比较指数
@@ -83,18 +83,11 @@ for(;P1!=NULL;P1=P1->link){//只要P1多项式还不为空， 执行循环内容
 for(;P2!=NULL;P2=P2->link){
         Attach(P2->coef,P2->exp,&rear);
 }
-
 //以上，已经把结果多项式创建完成。
 
 rear->link = NULL; //记得清空 最后一个结点的next指针
 temp = front ;   //删除临时创建的front结点，使得结果多项式仅包含表达多项式内容的结点
 front = front->link;
 free(temp);
-
 return front;
-
-
-
-
-
 }

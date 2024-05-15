@@ -1,5 +1,8 @@
 D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/ZJU_Ds_Lectures.dir
 D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/Binary_search.dir
+D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/DSBook_3.11.dir
+D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/DSBook_3.12.dir
+D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/DSBook_3.13.dir
 D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/DSBook_exe1.5.dir
 D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/PTA01-a-RightMethod.dir
 D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/PTA01-a.dir
@@ -9,6 +12,8 @@ D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/PTA01_Func-3.dir
 D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/PTA02-2_HELPed.dir
 D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/PTA02-3.dir
 D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/PTA02_Func-1.dir
+D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/PTAxt2.2.dir
+D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/PTAxt2.8.dir
 D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/CMakeCCompilerId.dir
 D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/lec.1.1-c.dir
 D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/lec1.1_a.dir

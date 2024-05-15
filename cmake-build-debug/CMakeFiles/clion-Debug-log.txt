@@ -1,14 +1,19 @@
 "D:\Applications\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/Applications/JetBrains/CLion 2023.1.1/bin/ninja/win/x64/ninja.exe" -G Ninja -S D:\CLionProjects\ZJU_Ds_Lectures -B D:\CLionProjects\ZJU_Ds_Lectures\cmake-build-debug
     -- src/Binary_search.cpp will be compiled to bin/Binary_search
+    -- src/DSBook_3.11.cpp will be compiled to bin/DSBook_3.11
+    -- src/DSBook_3.12.cpp will be compiled to bin/DSBook_3.12
+    -- src/DSBook_3.13.cpp will be compiled to bin/DSBook_3.13
     -- src/DSBook_exe1.5.cpp will be compiled to bin/DSBook_exe1.5
     -- src/PTA01-a-RightMethod.cpp will be compiled to bin/PTA01-a-RightMethod
     -- src/PTA01-a.cpp will be compiled to bin/PTA01-a
     -- src/PTA01-b_HELP.cpp will be compiled to bin/PTA01-b_HELP
     -- src/PTA01-b___.cpp will be compiled to bin/PTA01-b___
     -- src/PTA01_Func-3.cpp will be compiled to bin/PTA01_Func-3
-    -- src/PTA02-2.cpp will be compiled to bin/PTA02-2
+    -- src/PTA02-2_HELPed.cpp will be compiled to bin/PTA02-2_HELPed
     -- src/PTA02-3.cpp will be compiled to bin/PTA02-3
     -- src/PTA02_Func-1.cpp will be compiled to bin/PTA02_Func-1
+    -- src/PTAxt2.2.cpp will be compiled to bin/PTAxt2.2
+    -- src/PTAxt2.8.cpp will be compiled to bin/PTAxt2.8
     -- src/CMakeCCompilerId.cpp will be compiled to bin/CMakeCCompilerId
     -- src/lec.1.1-c.cpp will be compiled to bin/lec.1.1-c
     -- src/lec1.1_a.cpp will be compiled to bin/lec1.1_a

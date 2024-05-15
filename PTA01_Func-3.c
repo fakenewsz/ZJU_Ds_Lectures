@@ -47,8 +47,10 @@ Position BinarySearch(List L, int X){
     //Q：while循环里没有自增，怎么跳出循环的？
     //A:left 和right 的值会变，  以此为循环跳出依据
    while(left <= right){
+       printf("a");
        //mid = (left + right)/2;错误
        mid = left +(right-left)/2;
+
        if(L->Data[mid]< X){
            left = mid +1;
        }else if(L->Data[mid]>X){

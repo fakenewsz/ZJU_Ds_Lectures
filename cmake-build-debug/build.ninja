@@ -193,8 +193,8 @@ build CMakeFiles/ZJU_Ds_Lectures.dir/PTA02-3.c.obj: C_COMPILER__ZJU_Ds_Lectures_
   OBJECT_DIR = CMakeFiles\ZJU_Ds_Lectures.dir
   OBJECT_FILE_DIR = CMakeFiles\ZJU_Ds_Lectures.dir
 
-build CMakeFiles/ZJU_Ds_Lectures.dir/PTA02-2.c.obj: C_COMPILER__ZJU_Ds_Lectures_Debug D$:/CLionProjects/ZJU_Ds_Lectures/PTA02-2.c || cmake_object_order_depends_target_ZJU_Ds_Lectures
-  DEP_FILE = CMakeFiles\ZJU_Ds_Lectures.dir\PTA02-2.c.obj.d
+build CMakeFiles/ZJU_Ds_Lectures.dir/PTA02-2_HELPed.c.obj: C_COMPILER__ZJU_Ds_Lectures_Debug D$:/CLionProjects/ZJU_Ds_Lectures/PTA02-2_HELPed.c || cmake_object_order_depends_target_ZJU_Ds_Lectures
+  DEP_FILE = CMakeFiles\ZJU_Ds_Lectures.dir\PTA02-2_HELPed.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\ZJU_Ds_Lectures.dir
   OBJECT_FILE_DIR = CMakeFiles\ZJU_Ds_Lectures.dir
@@ -219,7 +219,7 @@ build CMakeFiles/ZJU_Ds_Lectures.dir/PTA01_Func-3.c.obj: C_COMPILER__ZJU_Ds_Lect
 #############################################
 # Link the executable ZJU_Ds_Lectures.exe
 
-build ZJU_Ds_Lectures.exe: C_EXECUTABLE_LINKER__ZJU_Ds_Lectures_Debug CMakeFiles/ZJU_Ds_Lectures.dir/main.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec1.1_a.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec1.1_b.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec.1.1-c.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/Binary_search.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/DSBook_exe1.5.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTA01-a.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTA01-a-RightMethod.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTA01-b___.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTA01-b_HELP.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec1.3.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/union_test.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.1-a.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.1-b.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.2-a.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.2-b.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.3-a.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.3-b.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.3-b-recite.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.3-a-recite.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.4.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.4-b.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.1_reverseList.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTA02-3.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTA02-2.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTA02_Func-1.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTA01_Func-3.c.obj
+build ZJU_Ds_Lectures.exe: C_EXECUTABLE_LINKER__ZJU_Ds_Lectures_Debug CMakeFiles/ZJU_Ds_Lectures.dir/main.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec1.1_a.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec1.1_b.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec.1.1-c.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/Binary_search.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/DSBook_exe1.5.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTA01-a.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTA01-a-RightMethod.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTA01-b___.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTA01-b_HELP.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec1.3.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/union_test.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.1-a.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.1-b.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.2-a.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.2-b.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.3-a.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.3-b.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.3-b-recite.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.3-a-recite.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.4.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.4-b.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.1_reverseList.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTA02-3.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTA02-2_HELPed.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTA02_Func-1.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTA01_Func-3.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ZJU_Ds_Lectures.dir
@@ -461,37 +461,37 @@ build PTA01_Func-3.exe: C_EXECUTABLE_LINKER__PTA01_Func-3_Debug CMakeFiles/PTA01
   TARGET_PDB = PTA01_Func-3.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target PTA02-2
+# Object build statements for EXECUTABLE target PTA02-2_HELPed
 
 
 #############################################
-# Order-only phony target for PTA02-2
+# Order-only phony target for PTA02-2_HELPed
 
-build cmake_object_order_depends_target_PTA02-2: phony || CMakeFiles/PTA02-2.dir
+build cmake_object_order_depends_target_PTA02-2_HELPed: phony || CMakeFiles/PTA02-2_HELPed.dir
 
-build CMakeFiles/PTA02-2.dir/PTA02-2.c.obj: C_COMPILER__PTA02-2_Debug D$:/CLionProjects/ZJU_Ds_Lectures/PTA02-2.c || cmake_object_order_depends_target_PTA02-2
-  DEP_FILE = CMakeFiles\PTA02-2.dir\PTA02-2.c.obj.d
+build CMakeFiles/PTA02-2_HELPed.dir/PTA02-2_HELPed.c.obj: C_COMPILER__PTA02-2_HELPed_Debug D$:/CLionProjects/ZJU_Ds_Lectures/PTA02-2_HELPed.c || cmake_object_order_depends_target_PTA02-2_HELPed
+  DEP_FILE = CMakeFiles\PTA02-2_HELPed.dir\PTA02-2_HELPed.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\PTA02-2.dir
-  OBJECT_FILE_DIR = CMakeFiles\PTA02-2.dir
+  OBJECT_DIR = CMakeFiles\PTA02-2_HELPed.dir
+  OBJECT_FILE_DIR = CMakeFiles\PTA02-2_HELPed.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target PTA02-2
+# Link build statements for EXECUTABLE target PTA02-2_HELPed
 
 
 #############################################
-# Link the executable PTA02-2.exe
+# Link the executable PTA02-2_HELPed.exe
 
-build PTA02-2.exe: C_EXECUTABLE_LINKER__PTA02-2_Debug CMakeFiles/PTA02-2.dir/PTA02-2.c.obj
+build PTA02-2_HELPed.exe: C_EXECUTABLE_LINKER__PTA02-2_HELPed_Debug CMakeFiles/PTA02-2_HELPed.dir/PTA02-2_HELPed.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\PTA02-2.dir
+  OBJECT_DIR = CMakeFiles\PTA02-2_HELPed.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = PTA02-2.exe
-  TARGET_IMPLIB = libPTA02-2.dll.a
-  TARGET_PDB = PTA02-2.exe.dbg
+  TARGET_FILE = PTA02-2_HELPed.exe
+  TARGET_IMPLIB = libPTA02-2_HELPed.dll.a
+  TARGET_PDB = PTA02-2_HELPed.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target PTA02-3
@@ -1195,7 +1195,7 @@ build PTA01-b___: phony PTA01-b___.exe
 
 build PTA01_Func-3: phony PTA01_Func-3.exe
 
-build PTA02-2: phony PTA02-2.exe
+build PTA02-2_HELPed: phony PTA02-2_HELPed.exe
 
 build PTA02-3: phony PTA02-3.exe
 
@@ -1245,7 +1245,7 @@ build union_test: phony union_test.exe
 #############################################
 # Folder: D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug
 
-build all: phony ZJU_Ds_Lectures.exe Binary_search.exe DSBook_exe1.5.exe PTA01-a-RightMethod.exe PTA01-a.exe PTA01-b_HELP.exe PTA01-b___.exe PTA01_Func-3.exe PTA02-2.exe PTA02-3.exe PTA02_Func-1.exe CMakeCCompilerId.exe lec.1.1-c.exe lec1.1_a.exe lec1.1_b.exe lec1.3.exe lec2.1-a.exe lec2.1-b.exe lec2.1_reverseList.exe lec2.2-a.exe lec2.2-b.exe lec2.3-a-recite.exe lec2.3-a.exe lec2.3-b-recite.exe lec2.3-b.exe lec2.4-b.exe lec2.4.exe main.exe union_test.exe
+build all: phony ZJU_Ds_Lectures.exe Binary_search.exe DSBook_exe1.5.exe PTA01-a-RightMethod.exe PTA01-a.exe PTA01-b_HELP.exe PTA01-b___.exe PTA01_Func-3.exe PTA02-2_HELPed.exe PTA02-3.exe PTA02_Func-1.exe CMakeCCompilerId.exe lec.1.1-c.exe lec1.1_a.exe lec1.1_b.exe lec1.3.exe lec2.1-a.exe lec2.1-b.exe lec2.1_reverseList.exe lec2.2-a.exe lec2.2-b.exe lec2.3-a-recite.exe lec2.3-a.exe lec2.3-b-recite.exe lec2.3-b.exe lec2.4-b.exe lec2.4.exe main.exe union_test.exe
 
 # =============================================================================
 # Built-in targets

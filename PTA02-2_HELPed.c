@@ -4,7 +4,6 @@
 
 #include <stdlib.h>
 #include <stdio.h>
-#include <stdbool.h>
 
 
 struct PolyNode {
@@ -12,25 +11,21 @@ struct PolyNode {
     int exp;
     struct PolyNode * link;
 };
-typedef struct PolyNode* Polynominal;
+typedef struct PolyNode* Polyomial;
 
-Polynominal read();
-Polynominal Add(Polynominal P1,Polynominal P2);
-Polynominal Mult(Polynominal P1, Polynominal P2);
-void printpoly(Polynominal P);
-void Attach(int c ,int e, Polynominal *pRear);
+Polyomial read();
+Polyomial Add(Polyomial P1,Polyomial P2);
+Polyomial Mult(Polyomial P1, Polyomial P2);
+void printpoly(Polyomial P);
+void Attach(int c ,int e, Polyomial *pRear);
 
 int main(void){
-    Polynominal P1,P2 ,sum,product;
-
-
+    Polyomial P1,P2 ,sum,product;
     P1 = read();
     P2 = read();
 
-    sum = Add(P1,P2);
     product = Mult(P1,P2);
-
-
+    sum = Add(P1,P2);
     printpoly(product);
     printpoly(sum);
 
@@ -38,29 +33,28 @@ int main(void){
 }
 
 
-void Attach(int c ,int e ,Polynominal *pRear){
-    Polynominal P;
-    P=(Polynominal)malloc(sizeof(struct PolyNode));
+void Attach(int c ,int e ,Polyomial *pRear){
+    Polyomial P;
+    P=(Polyomial)malloc(sizeof(struct PolyNode));
     //赋值 +初始化指针
     P->coef = c;
     P->exp = e;
     P->link=NULL;
-    (*pRear)->link=P;//传进来的是指向Rear的指针，要操作的是Rear的数，所以解引用
+    (*pRear)->link=P;//传进来的是指向Rear的指针，里面存储Rear的地址，要操作的是Rear的值，所以解引用
     *pRear = P; //P设为 结果多项式链表的最后一个结点，传出函数
 
 }
 
-Polynominal read(){
+Polyomial read(){
     int N,c,e;
-    Polynominal Rear,P,temp;
+    Polyomial Rear,P,temp;
     scanf("%d",&N);
-    P=(Polynominal)malloc(sizeof(struct PolyNode));
+    P=(Polyomial)malloc(sizeof(struct PolyNode));
     P->link=NULL;
-
     Rear=P;
 
     while(N--){
-        scanf("%d",&c,&e);
+        scanf("%d %d",&c,&e);
         Attach(c,e,&Rear);
     }
     temp = P;
@@ -75,17 +69,16 @@ int Compare(int a,int b){
     else return 0;
 }
 
-Polynominal Add(Polynominal P1, Polynominal P2) {
-    Polynominal front, rear, temp;
+Polyomial Add(Polyomial P1, Polyomial P2) {
+    Polyomial front, rear, temp;
 
-    rear = (Polynominal) malloc(sizeof(struct PolyNode));
+    rear = (Polyomial) malloc(sizeof(struct PolyNode));
     front = rear;//front 不需要动态分配 内存吗
                  /*
     因为 front 并不是用来存储节点数据的，而是作为结果多项式链表的头指针使用的。
     在此示例中，rear 被初始化为一个临时的空节点，并将其作为 front 的初始值，以便在链表的开头插入节点。
  因此，front 并不需要分配额外的内存，它只是一个指针，用于指向链表的头结点
 */
-
 
     //对比指数大小，3个情况分别写函数操作。 用Switch函数，每个块尾部都要break;每操作一项，都要跳项
     int sum;
@@ -104,7 +97,7 @@ Polynominal Add(Polynominal P1, Polynominal P2) {
                 //相加为0 就不操作，直接跳项
                 sum = P1->coef + P2->coef;
                 if (sum) {
-                    Attach(sum, P1->coef, &rear);
+                    Attach(sum, P1->exp, &rear);
                 }
                 P1 = P1->link;
                 P2 = P2->link;
@@ -131,8 +124,8 @@ Polynominal Add(Polynominal P1, Polynominal P2) {
     return front;
 
 }
-Polynominal Mult(Polynominal P1,Polynominal P2){
-    Polynominal P, Rear,t,t1,t2;
+Polyomial Mult(Polyomial P1,Polyomial P2){
+    Polyomial P, Rear,t,t1,t2;
     int c,e;
     if(!P1 || !P2) return NULL;
     //存储P1、P2的初始值，用于循环
@@ -140,7 +133,7 @@ Polynominal Mult(Polynominal P1,Polynominal P2){
     t2=P2;
 
     //初始化固定3步走
-    P=(Polynominal) malloc(sizeof(struct PolyNode));
+    P=(Polyomial) malloc(sizeof(struct PolyNode));
     P->link = NULL;
     Rear = P;
 
@@ -175,13 +168,13 @@ Polynominal Mult(Polynominal P1,Polynominal P2){
                 }else{
                     t =Rear->link;
                     Rear->link =t ->link; //这里不是Rear = Rear ->link
-                                            //Q:其实Rear = Rear ->link也行？
+                    //Q:其实Rear = Rear ->link也行？
+                    // A：不可以，因为这里操作的是跳过Rear指的的下一个，是跳过rear->link，而不是Rear
                     free(t);
                 }
             }else{//指数小于e，则插入c、e
-
-                t=(Polynominal)malloc(sizeof(struct PolyNode));
-                t->link=NULL;
+                t=(Polyomial)malloc(sizeof(struct PolyNode));
+                //t->link=NULL;
                 t->coef=c;
                 t->exp=e;
                 //临时节点t 插入结果多项式
@@ -205,7 +198,7 @@ Polynominal Mult(Polynominal P1,Polynominal P2){
 
 }
 
-void printpoly(Polynominal P){
+void printpoly(Polyomial P){
     int flag =0;
     if(!P){
         printf("0 0\n");

@@ -30,7 +30,11 @@ D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/lec2.3-b-recite.di
 D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/lec2.3-b.dir
 D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/lec2.4-b.dir
 D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/lec2.4.dir
+D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/lec3.1.dir
+D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/lec3.2.dir
+D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/lec3.4.dir
 D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/main.dir
+D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/test.dir
 D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/union_test.dir
 D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/rebuild_cache.dir

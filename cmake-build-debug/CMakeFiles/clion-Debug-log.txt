@@ -30,7 +30,11 @@
     -- src/lec2.3-b.cpp will be compiled to bin/lec2.3-b
     -- src/lec2.4-b.cpp will be compiled to bin/lec2.4-b
     -- src/lec2.4.cpp will be compiled to bin/lec2.4
+    -- src/lec3.1.cpp will be compiled to bin/lec3.1
+    -- src/lec3.2.cpp will be compiled to bin/lec3.2
+    -- src/lec3.4.cpp will be compiled to bin/lec3.4
     -- src/main.cpp will be compiled to bin/main
+    -- src/test.cpp will be compiled to bin/test
     -- src/union_test.cpp will be compiled to bin/union_test
 -- Configuring done
 -- Generating done

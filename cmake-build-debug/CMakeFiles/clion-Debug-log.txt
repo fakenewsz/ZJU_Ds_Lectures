@@ -4,6 +4,8 @@
     -- src/DSBook_3.12.cpp will be compiled to bin/DSBook_3.12
     -- src/DSBook_3.13.cpp will be compiled to bin/DSBook_3.13
     -- src/DSBook_exe1.5.cpp will be compiled to bin/DSBook_exe1.5
+    -- src/PAT04-5.cpp will be compiled to bin/PAT04-5
+    -- src/PAT04-5_Help.cpp will be compiled to bin/PAT04-5_Help
     -- src/PTA01-a-RightMethod.cpp will be compiled to bin/PTA01-a-RightMethod
     -- src/PTA01-a.cpp will be compiled to bin/PTA01-a
     -- src/PTA01-b_HELP.cpp will be compiled to bin/PTA01-b_HELP
@@ -33,6 +35,18 @@
     -- src/lec3.1.cpp will be compiled to bin/lec3.1
     -- src/lec3.2.cpp will be compiled to bin/lec3.2
     -- src/lec3.4.cpp will be compiled to bin/lec3.4
+    -- src/lec4.1.cpp will be compiled to bin/lec4.1
+    -- src/lec4.2.cpp will be compiled to bin/lec4.2
+    -- src/lec4.3.cpp will be compiled to bin/lec4.3
+    -- src/lec5.1.cpp will be compiled to bin/lec5.1
+    -- src/lec5.2.cpp will be compiled to bin/lec5.2
+    -- src/lec5.3.cpp will be compiled to bin/lec5.3
+    -- src/lec6.1-a.cpp will be compiled to bin/lec6.1-a
+    -- src/lec6.1-b.cpp will be compiled to bin/lec6.1-b
+    -- src/lec6.2.cpp will be compiled to bin/lec6.2
+    -- src/lec7.1-a.cpp will be compiled to bin/lec7.1-a
+    -- src/lec7.1-b.cpp will be compiled to bin/lec7.1-b
+    -- src/lec7.1-c.cpp will be compiled to bin/lec7.1-c
     -- src/main.cpp will be compiled to bin/main
     -- src/test.cpp will be compiled to bin/test
     -- src/union_test.cpp will be compiled to bin/union_test

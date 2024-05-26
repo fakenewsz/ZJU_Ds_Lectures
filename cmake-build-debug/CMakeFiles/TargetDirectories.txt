@@ -43,6 +43,7 @@ D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/lec5.2.dir
 D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/lec5.3.dir
 D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/lec6.1-a.dir
 D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/lec6.1-b.dir
+D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/lec6.1-c.dir
 D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/lec6.2.dir
 D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/lec7.1-a.dir
 D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/lec7.1-b.dir

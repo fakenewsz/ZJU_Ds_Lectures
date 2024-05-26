@@ -41,7 +41,8 @@ struct GNode{
 };
 typedef PtrToGNode LGraph; /* 以邻接表方式存储的图类型 */
 
-
+///从大到小：LGraph包含 AdjList[] G 包含链表结点PtrToAdjVNode FirstEdge
+///所以引用的时候是 Graph->G[VertexIndex]. FirstEdge
 
 LGraph CreateGraph( int VertexNum )///注意 初始化图 ，必须给出 顶点个数， 不可能初始化一个没有顶点、没有边的图
 { /* 初始化一个有VertexNum个顶点但没有边的图 */
@@ -77,6 +78,10 @@ void InsertEdge( LGraph Graph, Edge E )
     ///再动原结点的指针，插入后，头结点应该是newnode了，也就是把newnode的值，赋给Graph->G[E->V1].FirstEdge 、
     NewNode->Next = Graph->G[E->V1].FirstEdge;//????
     Graph->G[E->V1].FirstEdge = NewNode;
+    ///Graph->G[E->V1].FirstEdge;不是Graph->G[E->V1]->FirstEdge;
+    ///因为 'a->b'==' (*a).b ' 左侧a应该是结构体指针,通过解引用结构体指针，得到结构体(*a)
+    ///再 引用结构体(*a)里的结构体成员b。表达式就是(*a).b 或者a->b
+    /// 再对邻接表进行操作时，Graph->G[E->v1]， 中的数组G[E->V1]是个结构体，所以用.号
 
     /* 若是无向图，还要插入边 <V2, V1> */
     /* 为V1建立新的邻接点 */

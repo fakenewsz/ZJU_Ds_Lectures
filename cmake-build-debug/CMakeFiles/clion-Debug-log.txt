@@ -43,6 +43,7 @@
     -- src/lec5.3.cpp will be compiled to bin/lec5.3
     -- src/lec6.1-a.cpp will be compiled to bin/lec6.1-a
     -- src/lec6.1-b.cpp will be compiled to bin/lec6.1-b
+    -- src/lec6.1-c.cpp will be compiled to bin/lec6.1-c
     -- src/lec6.2.cpp will be compiled to bin/lec6.2
     -- src/lec7.1-a.cpp will be compiled to bin/lec7.1-a
     -- src/lec7.1-b.cpp will be compiled to bin/lec7.1-b

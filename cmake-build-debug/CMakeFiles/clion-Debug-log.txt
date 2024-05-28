@@ -51,8 +51,11 @@
     -- src/lec8.1-a.cpp will be compiled to bin/lec8.1-a
     -- src/lec8.1-b.cpp will be compiled to bin/lec8.1-b
     -- src/lec8.2.cpp will be compiled to bin/lec8.2
+    -- src/lec9.2.cpp will be compiled to bin/lec9.2
+    -- src/lec9.3.cpp will be compiled to bin/lec9.3
     -- src/lec9.4-a.cpp will be compiled to bin/lec9.4-a
     -- src/lec9.4-b.cpp will be compiled to bin/lec9.4-b
+    -- src/lec9.4-c.cpp will be compiled to bin/lec9.4-c
     -- src/main.cpp will be compiled to bin/main
     -- src/test.cpp will be compiled to bin/test
     -- src/union_test.cpp will be compiled to bin/union_test

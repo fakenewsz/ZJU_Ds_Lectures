@@ -51,8 +51,11 @@ D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/lec7.1-c.dir
 D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/lec8.1-a.dir
 D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/lec8.1-b.dir
 D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/lec8.2.dir
+D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/lec9.2.dir
+D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/lec9.3.dir
 D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/lec9.4-a.dir
 D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/lec9.4-b.dir
+D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/lec9.4-c.dir
 D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/main.dir
 D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/test.dir
 D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug/CMakeFiles/union_test.dir

@@ -1,8 +1,22 @@
 /* 基数排序 - 次位优先 */
 
+/*
+LSD流程：
+1. 初始化每个桶为空链表
+2. 原始序列  逆序存入 临时容器--初始链表List
+3. 开始排序
+4. 从小到大 对数据每一位进行循环处理
+ 4-1.循环获取当前元素的当前位数字，把数字从List中摘除，插入桶B[Di]号桶尾（此时不是插入链表表头）
+ 4-2.将每个桶的元素顺序收集进List，收集完一个桶，清空一个
+5.将List内排序好的元素倒入数组A[]。并释放空间
+
+*/
+
+
+
 /* 假设元素最多有MaxDigit个关键字，基数全是同样的Radix */
 #define MaxDigit 4
-#define Radix 10
+#define Radix 10  ///radix进制
 
 /* 桶元素结点 */
 typedef struct Node *PtrToNode;
@@ -34,7 +48,7 @@ void LSDRadixSort( ElementType A[], int N )
     Bucket B;
     PtrToNode tmp, p, List = NULL;
 
-    for (i=0; i<Radix; i++) /* 初始化每个桶为空链表 */
+    for (i=0; i<Radix; i++) /* 初始化每个桶为空链表 */  ///第i个桶 的头、尾指针先初始化为空
         B[i].head = B[i].tail = NULL;
     for (i=0; i<N; i++) { /* 将原始序列逆序存入初始链表List */
         tmp = (PtrToNode)malloc(sizeof(struct Node));

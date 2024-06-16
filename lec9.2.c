@@ -1,9 +1,9 @@
-
+/* 希尔排序 - 用Sedgewick增量序列 */
 
 typedef int ElementType;
 
 void ShellSort( ElementType A[], int N )
-{ /* 希尔排序 - 用Sedgewick增量序列 */
+{
     int Si, D, P, i;
     ElementType Tmp;
     /* 这里只列出一小部分增量 */

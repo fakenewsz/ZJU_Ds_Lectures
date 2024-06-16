@@ -415,6 +415,36 @@ build CMakeFiles/ZJU_Ds_Lectures.dir/lec10.3-b.c.obj: C_COMPILER__ZJU_Ds_Lecture
   OBJECT_DIR = CMakeFiles\ZJU_Ds_Lectures.dir
   OBJECT_FILE_DIR = CMakeFiles\ZJU_Ds_Lectures.dir
 
+build CMakeFiles/ZJU_Ds_Lectures.dir/lec11.2.c.obj: C_COMPILER__ZJU_Ds_Lectures_Debug D$:/CLionProjects/ZJU_Ds_Lectures/lec11.2.c || cmake_object_order_depends_target_ZJU_Ds_Lectures
+  DEP_FILE = CMakeFiles\ZJU_Ds_Lectures.dir\lec11.2.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles\ZJU_Ds_Lectures.dir
+  OBJECT_FILE_DIR = CMakeFiles\ZJU_Ds_Lectures.dir
+
+build CMakeFiles/ZJU_Ds_Lectures.dir/lec11.3-c.c.obj: C_COMPILER__ZJU_Ds_Lectures_Debug D$:/CLionProjects/ZJU_Ds_Lectures/lec11.3-c.c || cmake_object_order_depends_target_ZJU_Ds_Lectures
+  DEP_FILE = CMakeFiles\ZJU_Ds_Lectures.dir\lec11.3-c.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles\ZJU_Ds_Lectures.dir
+  OBJECT_FILE_DIR = CMakeFiles\ZJU_Ds_Lectures.dir
+
+build CMakeFiles/ZJU_Ds_Lectures.dir/lec11.3-b.c.obj: C_COMPILER__ZJU_Ds_Lectures_Debug D$:/CLionProjects/ZJU_Ds_Lectures/lec11.3-b.c || cmake_object_order_depends_target_ZJU_Ds_Lectures
+  DEP_FILE = CMakeFiles\ZJU_Ds_Lectures.dir\lec11.3-b.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles\ZJU_Ds_Lectures.dir
+  OBJECT_FILE_DIR = CMakeFiles\ZJU_Ds_Lectures.dir
+
+build CMakeFiles/ZJU_Ds_Lectures.dir/lec11.3-a.c.obj: C_COMPILER__ZJU_Ds_Lectures_Debug D$:/CLionProjects/ZJU_Ds_Lectures/lec11.3-a.c || cmake_object_order_depends_target_ZJU_Ds_Lectures
+  DEP_FILE = CMakeFiles\ZJU_Ds_Lectures.dir\lec11.3-a.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles\ZJU_Ds_Lectures.dir
+  OBJECT_FILE_DIR = CMakeFiles\ZJU_Ds_Lectures.dir
+
+build CMakeFiles/ZJU_Ds_Lectures.dir/lec10.1.c.obj: C_COMPILER__ZJU_Ds_Lectures_Debug D$:/CLionProjects/ZJU_Ds_Lectures/lec10.1.c || cmake_object_order_depends_target_ZJU_Ds_Lectures
+  DEP_FILE = CMakeFiles\ZJU_Ds_Lectures.dir\lec10.1.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles\ZJU_Ds_Lectures.dir
+  OBJECT_FILE_DIR = CMakeFiles\ZJU_Ds_Lectures.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target ZJU_Ds_Lectures
@@ -423,7 +453,7 @@ build CMakeFiles/ZJU_Ds_Lectures.dir/lec10.3-b.c.obj: C_COMPILER__ZJU_Ds_Lecture
 #############################################
 # Link the executable ZJU_Ds_Lectures.exe
 
-build ZJU_Ds_Lectures.exe: C_EXECUTABLE_LINKER__ZJU_Ds_Lectures_Debug CMakeFiles/ZJU_Ds_Lectures.dir/main.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec1.1_a.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec1.1_b.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec.1.1-c.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/Binary_search.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/DSBook_exe1.5.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTA01-a.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTA01-a-RightMethod.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTA01-b___.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTA01-b_HELP.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec1.3.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/union_test.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.1-a.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.1-b.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.2-a.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.2-b.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.3-a.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.3-b.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.3-b-recite.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.3-a-recite.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.4.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.4-b.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.1_reverseList.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTA02-3.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTA02-2_HELPed.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTA02_Func-1.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTA01_Func-3.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTAxt2.2.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTAxt2.8.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/DSBook_3.11.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/DSBook_3.12.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/DSBook_3.13.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec3.1.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec3.2.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/test.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec3.4.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec4.3.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec4.2.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PAT04-5.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PAT04-5_Help.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec5.1.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec5.2.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec4.1.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec5.3.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec6.1-a.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec6.1-b.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec6.2.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec7.1-a.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec7.1-b.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec7.1-c.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec6.1-c.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec8.1-a.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec8.1-b.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec8.2.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec9.4-a.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec9.4-b.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec9.4-c.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec9.3.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec9.2.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec10.3-a.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec10.3-b.c.obj
+build ZJU_Ds_Lectures.exe: C_EXECUTABLE_LINKER__ZJU_Ds_Lectures_Debug CMakeFiles/ZJU_Ds_Lectures.dir/main.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec1.1_a.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec1.1_b.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec.1.1-c.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/Binary_search.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/DSBook_exe1.5.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTA01-a.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTA01-a-RightMethod.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTA01-b___.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTA01-b_HELP.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec1.3.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/union_test.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.1-a.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.1-b.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.2-a.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.2-b.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.3-a.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.3-b.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.3-b-recite.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.3-a-recite.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.4.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.4-b.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec2.1_reverseList.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTA02-3.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTA02-2_HELPed.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTA02_Func-1.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTA01_Func-3.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTAxt2.2.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PTAxt2.8.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/DSBook_3.11.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/DSBook_3.12.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/DSBook_3.13.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec3.1.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec3.2.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/test.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec3.4.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec4.3.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec4.2.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PAT04-5.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/PAT04-5_Help.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec5.1.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec5.2.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec4.1.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec5.3.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec6.1-a.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec6.1-b.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec6.2.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec7.1-a.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec7.1-b.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec7.1-c.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec6.1-c.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec8.1-a.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec8.1-b.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec8.2.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec9.4-a.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec9.4-b.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec9.4-c.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec9.3.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec9.2.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec10.3-a.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec10.3-b.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec11.2.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec11.3-c.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec11.3-b.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec11.3-a.c.obj CMakeFiles/ZJU_Ds_Lectures.dir/lec10.1.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ZJU_Ds_Lectures.dir
@@ -1160,6 +1190,39 @@ build lec1.3.exe: C_EXECUTABLE_LINKER__lec1.2e3_Debug CMakeFiles/lec1.3.dir/lec1
   TARGET_PDB = lec1.3.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target lec10.1
+
+
+#############################################
+# Order-only phony target for lec10.1
+
+build cmake_object_order_depends_target_lec10.1: phony || CMakeFiles/lec10.1.dir
+
+build CMakeFiles/lec10.1.dir/lec10.1.c.obj: C_COMPILER__lec10.2e1_Debug D$:/CLionProjects/ZJU_Ds_Lectures/lec10.1.c || cmake_object_order_depends_target_lec10.1
+  DEP_FILE = CMakeFiles\lec10.1.dir\lec10.1.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles\lec10.1.dir
+  OBJECT_FILE_DIR = CMakeFiles\lec10.1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lec10.1
+
+
+#############################################
+# Link the executable lec10.1.exe
+
+build lec10.1.exe: C_EXECUTABLE_LINKER__lec10.2e1_Debug CMakeFiles/lec10.1.dir/lec10.1.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lec10.1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lec10.1.exe
+  TARGET_IMPLIB = liblec10.1.dll.a
+  TARGET_PDB = lec10.1.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target lec10.3-a
 
 
@@ -1224,6 +1287,138 @@ build lec10.3-b.exe: C_EXECUTABLE_LINKER__lec10.2e3-b_Debug CMakeFiles/lec10.3-b
   TARGET_FILE = lec10.3-b.exe
   TARGET_IMPLIB = liblec10.3-b.dll.a
   TARGET_PDB = lec10.3-b.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lec11.2
+
+
+#############################################
+# Order-only phony target for lec11.2
+
+build cmake_object_order_depends_target_lec11.2: phony || CMakeFiles/lec11.2.dir
+
+build CMakeFiles/lec11.2.dir/lec11.2.c.obj: C_COMPILER__lec11.2e2_Debug D$:/CLionProjects/ZJU_Ds_Lectures/lec11.2.c || cmake_object_order_depends_target_lec11.2
+  DEP_FILE = CMakeFiles\lec11.2.dir\lec11.2.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles\lec11.2.dir
+  OBJECT_FILE_DIR = CMakeFiles\lec11.2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lec11.2
+
+
+#############################################
+# Link the executable lec11.2.exe
+
+build lec11.2.exe: C_EXECUTABLE_LINKER__lec11.2e2_Debug CMakeFiles/lec11.2.dir/lec11.2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lec11.2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lec11.2.exe
+  TARGET_IMPLIB = liblec11.2.dll.a
+  TARGET_PDB = lec11.2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lec11.3-a
+
+
+#############################################
+# Order-only phony target for lec11.3-a
+
+build cmake_object_order_depends_target_lec11.3-a: phony || CMakeFiles/lec11.3-a.dir
+
+build CMakeFiles/lec11.3-a.dir/lec11.3-a.c.obj: C_COMPILER__lec11.2e3-a_Debug D$:/CLionProjects/ZJU_Ds_Lectures/lec11.3-a.c || cmake_object_order_depends_target_lec11.3-a
+  DEP_FILE = CMakeFiles\lec11.3-a.dir\lec11.3-a.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles\lec11.3-a.dir
+  OBJECT_FILE_DIR = CMakeFiles\lec11.3-a.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lec11.3-a
+
+
+#############################################
+# Link the executable lec11.3-a.exe
+
+build lec11.3-a.exe: C_EXECUTABLE_LINKER__lec11.2e3-a_Debug CMakeFiles/lec11.3-a.dir/lec11.3-a.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lec11.3-a.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lec11.3-a.exe
+  TARGET_IMPLIB = liblec11.3-a.dll.a
+  TARGET_PDB = lec11.3-a.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lec11.3-b
+
+
+#############################################
+# Order-only phony target for lec11.3-b
+
+build cmake_object_order_depends_target_lec11.3-b: phony || CMakeFiles/lec11.3-b.dir
+
+build CMakeFiles/lec11.3-b.dir/lec11.3-b.c.obj: C_COMPILER__lec11.2e3-b_Debug D$:/CLionProjects/ZJU_Ds_Lectures/lec11.3-b.c || cmake_object_order_depends_target_lec11.3-b
+  DEP_FILE = CMakeFiles\lec11.3-b.dir\lec11.3-b.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles\lec11.3-b.dir
+  OBJECT_FILE_DIR = CMakeFiles\lec11.3-b.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lec11.3-b
+
+
+#############################################
+# Link the executable lec11.3-b.exe
+
+build lec11.3-b.exe: C_EXECUTABLE_LINKER__lec11.2e3-b_Debug CMakeFiles/lec11.3-b.dir/lec11.3-b.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lec11.3-b.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lec11.3-b.exe
+  TARGET_IMPLIB = liblec11.3-b.dll.a
+  TARGET_PDB = lec11.3-b.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lec11.3-c
+
+
+#############################################
+# Order-only phony target for lec11.3-c
+
+build cmake_object_order_depends_target_lec11.3-c: phony || CMakeFiles/lec11.3-c.dir
+
+build CMakeFiles/lec11.3-c.dir/lec11.3-c.c.obj: C_COMPILER__lec11.2e3-c_Debug D$:/CLionProjects/ZJU_Ds_Lectures/lec11.3-c.c || cmake_object_order_depends_target_lec11.3-c
+  DEP_FILE = CMakeFiles\lec11.3-c.dir\lec11.3-c.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles\lec11.3-c.dir
+  OBJECT_FILE_DIR = CMakeFiles\lec11.3-c.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lec11.3-c
+
+
+#############################################
+# Link the executable lec11.3-c.exe
+
+build lec11.3-c.exe: C_EXECUTABLE_LINKER__lec11.2e3-c_Debug CMakeFiles/lec11.3-c.dir/lec11.3-c.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lec11.3-c.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lec11.3-c.exe
+  TARGET_IMPLIB = liblec11.3-c.dll.a
+  TARGET_PDB = lec11.3-c.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target lec2.1-a
@@ -2551,9 +2746,19 @@ build lec1.1_b: phony lec1.1_b.exe
 
 build lec1.3: phony lec1.3.exe
 
+build lec10.1: phony lec10.1.exe
+
 build lec10.3-a: phony lec10.3-a.exe
 
 build lec10.3-b: phony lec10.3-b.exe
+
+build lec11.2: phony lec11.2.exe
+
+build lec11.3-a: phony lec11.3-a.exe
+
+build lec11.3-b: phony lec11.3-b.exe
+
+build lec11.3-c: phony lec11.3-c.exe
 
 build lec2.1-a: phony lec2.1-a.exe
 
@@ -2639,7 +2844,7 @@ build union_test: phony union_test.exe
 #############################################
 # Folder: D:/CLionProjects/ZJU_Ds_Lectures/cmake-build-debug
 
-build all: phony ZJU_Ds_Lectures.exe Binary_search.exe DSBook_3.11.exe DSBook_3.12.exe DSBook_3.13.exe DSBook_exe1.5.exe PAT04-5.exe PAT04-5_Help.exe PTA01-a-RightMethod.exe PTA01-a.exe PTA01-b_HELP.exe PTA01-b___.exe PTA01_Func-3.exe PTA02-2_HELPed.exe PTA02-3.exe PTA02_Func-1.exe PTAxt2.2.exe PTAxt2.8.exe CMakeCCompilerId.exe lec.1.1-c.exe lec1.1_a.exe lec1.1_b.exe lec1.3.exe lec10.3-a.exe lec10.3-b.exe lec2.1-a.exe lec2.1-b.exe lec2.1_reverseList.exe lec2.2-a.exe lec2.2-b.exe lec2.3-a-recite.exe lec2.3-a.exe lec2.3-b-recite.exe lec2.3-b.exe lec2.4-b.exe lec2.4.exe lec3.1.exe lec3.2.exe lec3.4.exe lec4.1.exe lec4.2.exe lec4.3.exe lec5.1.exe lec5.2.exe lec5.3.exe lec6.1-a.exe lec6.1-b.exe lec6.1-c.exe lec6.2.exe lec7.1-a.exe lec7.1-b.exe lec7.1-c.exe lec8.1-a.exe lec8.1-b.exe lec8.2.exe lec9.2.exe lec9.3.exe lec9.4-a.exe lec9.4-b.exe lec9.4-c.exe main.exe test.exe union_test.exe
+build all: phony ZJU_Ds_Lectures.exe Binary_search.exe DSBook_3.11.exe DSBook_3.12.exe DSBook_3.13.exe DSBook_exe1.5.exe PAT04-5.exe PAT04-5_Help.exe PTA01-a-RightMethod.exe PTA01-a.exe PTA01-b_HELP.exe PTA01-b___.exe PTA01_Func-3.exe PTA02-2_HELPed.exe PTA02-3.exe PTA02_Func-1.exe PTAxt2.2.exe PTAxt2.8.exe CMakeCCompilerId.exe lec.1.1-c.exe lec1.1_a.exe lec1.1_b.exe lec1.3.exe lec10.1.exe lec10.3-a.exe lec10.3-b.exe lec11.2.exe lec11.3-a.exe lec11.3-b.exe lec11.3-c.exe lec2.1-a.exe lec2.1-b.exe lec2.1_reverseList.exe lec2.2-a.exe lec2.2-b.exe lec2.3-a-recite.exe lec2.3-a.exe lec2.3-b-recite.exe lec2.3-b.exe lec2.4-b.exe lec2.4.exe lec3.1.exe lec3.2.exe lec3.4.exe lec4.1.exe lec4.2.exe lec4.3.exe lec5.1.exe lec5.2.exe lec5.3.exe lec6.1-a.exe lec6.1-b.exe lec6.1-c.exe lec6.2.exe lec7.1-a.exe lec7.1-b.exe lec7.1-c.exe lec8.1-a.exe lec8.1-b.exe lec8.2.exe lec9.2.exe lec9.3.exe lec9.4-a.exe lec9.4-b.exe lec9.4-c.exe main.exe test.exe union_test.exe
 
 # =============================================================================
 # Built-in targets

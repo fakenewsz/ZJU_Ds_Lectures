@@ -21,8 +21,13 @@
     -- src/lec1.1_a.cpp will be compiled to bin/lec1.1_a
     -- src/lec1.1_b.cpp will be compiled to bin/lec1.1_b
     -- src/lec1.3.cpp will be compiled to bin/lec1.3
+    -- src/lec10.1.cpp will be compiled to bin/lec10.1
     -- src/lec10.3-a.cpp will be compiled to bin/lec10.3-a
     -- src/lec10.3-b.cpp will be compiled to bin/lec10.3-b
+    -- src/lec11.2.cpp will be compiled to bin/lec11.2
+    -- src/lec11.3-a.cpp will be compiled to bin/lec11.3-a
+    -- src/lec11.3-b.cpp will be compiled to bin/lec11.3-b
+    -- src/lec11.3-c.cpp will be compiled to bin/lec11.3-c
     -- src/lec2.1-a.cpp will be compiled to bin/lec2.1-a
     -- src/lec2.1-b.cpp will be compiled to bin/lec2.1-b
     -- src/lec2.1_reverseList.cpp will be compiled to bin/lec2.1_reverseList
